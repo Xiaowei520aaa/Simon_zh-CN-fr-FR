@@ -1,2 +1,4 @@
 # simonGame
-A memory game which was built to play in leisure time, it also helped me clear up the fundamentals of my JavaScript. It is a game in which there are four primary colored boxes and the boxes are going to blink in any random order and the player has to tap the complete sequence with the add-ons to upgrade to the next level. Do try this and let me know your high score
+Author: SHivam21082000 (Shivam Shukla)
+Localization: Xiaowei520aaa
+For this practice, I aim to test my ability in game development and localization by applying my newly acquired skills in CSS, HTML, and JavaScript. The simplicity and interesting nature of the Simon game made it an ideal choice for this endeavor. By localizing the game into two languages, Chinese and French, I aimed to cater to a wider audience and provide an immersive experience for players who speak these languages.
