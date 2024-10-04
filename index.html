@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="imag/x-icon" href="img/icon.png"> 
+  <script type="text/javascript" src="js/schedule.js"></script>
+  <script type="text/javascript" src="js/24Ways.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <img src="img/globe.png" id="img"><label for="language-select" id="lang">Select Language:</label>  
+  <select id="language-select">  
+    <option value = "index.html" selected>English</option>  
+    <option value = "index_zh-CN.html">中文</option>  
+    <option value = "index_fr-FR.html">Français</option> 
+  </select> 
+  <p id = "display"></p>
+  <img  id = "imag" width = "300px">
+  <div class="container">
+      <div type="button" id="green" class="btn green"></div>
+      <div type="button" id="red" class="btn red"></div>
+      <div type="button" id="yellow" class="btn yellow"></div>
+      <div type="button" id="blue" class="btn blue"></div>
+      <div type="button" id="purple" class="btn purple"></div>
+      <div type="button" id="orange" class="btn orange"></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
+  <script>  
+    document.getElementById("language-select").addEventListener("change", function() {  
+      var selectedLanguage = this.value;  
+      window.location.href = selectedLanguage;  
+    });  
+  </script>  
+  
+
+</body>
+
+</html>
